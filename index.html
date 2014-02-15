@@ -2,10 +2,9 @@
 <html>
 <head>
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">	
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic' rel='stylesheet' -`type='text/css'>
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<meta name="author" content="Alex Brashear, Razzi Abuissa">
 	<meta name="description" content="Command line tutorials via the lrn platform">
 	<meta name="keywords" content="lrn, guru, command line, tutorials">
@@ -17,35 +16,145 @@
 	<!-- header wrap -->
 	<div class="header">
 		<div class="container">
-		<ul class="list-inline">
-						<li>
-							<a href="">Source Code</a>
-						</li>
-						<li>|</li>
-						<li>
-							<a href="">Contact</a>
-						</li>
-						<li>|</li>
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a></a>
-						</li>
-					</ul>
-			<h1 class="themecolor">The Lrn Platform</h1>
+			<br>
+			<ul class="list-inline links">
+				<li>
+					<button type="button" class="btn btn-info" href=""><i class="fa fa-github fa-4"></i> Source Code</button>
+				</li>
+				<li>
+					<div class="btn-group">
+						<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+							Contact <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="http://alex-brashear.herokuapp.com/">Alex Brashear</a></li>
+							<li><a href="http://razzi.abuissa.net/">Razzi Abuissa</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a></a>
+				</li>
+			</ul>
+			<h1 class="themecolor">LRN</h1>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<p class="description">
+						A community driven, command-line tutorial platform that gives a more personalized learning experience.  Benefit from one of the interactive lessons or share your mastery of a subject with someone else.  
+					</p>
+				</div>
+			</div>
+			<br>
+			<p class="text-center">
+				<button type="button" class="btn btn-info btn-lg" href="">Browse Tutorials</button>
+			</p>
 		</div>
 	</div>
+	<br>
 	<!-- end wrap -->
 
 	<!-- main body -->
-	<div class = 'site-content'>
-		<div class="mainbody container">
-			<h2> Lrn something today </h2> 
+
+	<div class="mainbody container">
+		<br><br>
+		<div class="row">
+			<div class="col-md-offset-2">
+				<h2>Installation</h2>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-4">
+				<p class="details">
+					LRN is easy to install via pip.  Run the following command in your terminal and it will set up itself.
+				</p>
+			</div>
+			<div class="col-md-4">
+				<pre>$ sudo pip install lrn</pre>
+			</div>
+			<div class="col-md-2"></div>
 		</div>
 
-	<a href="https://github.com/lrn-guru/lrn"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub Yo"></a>
+		<br><br>
+		<div class="row">
+			<div class="col-md-offset-2">
+				<h2>Find a tutorial</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-4">
+				<p class="details">
+					Getting started is really simple.  just input the following command and take a look at the different features lrn offers.
+				</p>
+			</div>
+			<div class="col-md-4">
+				<pre>$ lrn</pre>
+			</div>
+			<div class="col-md-2"></div>
 
+		</div>
+
+		<br><br>
+		<div class="row">
+			<div class="col-md-offset-2">
+				<h2>Contributing</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-6">
+				<p class="details">
+					As an open source tool, lrn relies on the support of other developers.  If you have any suggestions, contributions or ug fixes let us know!  Fork our repo and make some changes.  
+				</p>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+
+		<br><br>
+		<div class="row">
+			<div class="col-md-offset-2">
+				<h2>Create a lesson</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-6">
+				<p class="details">
+					Unfortunately we don't know everything, we need your help to make this as comprehensive of a tool as possible.  If you have mastered a skill/language/program, take a look at the documentation on our repo page and set up a tutorial for those less knowledgable!  A command line tutorial can really benefit a self-taught developer.  
+				</p>
+			</div>
+			<div class="col-md-4"></div>
+
+		</div>
+
+		<!-- Developer section -->
+		<div>
+			
+		</div>
+
+	</div>
+
+	<!-- footer wrap -->
+	<div class="container">
+	<br><br>
+		<ul class="list-inline">
+			<li><img src="static/img/git.png"></li>
+			<li><img src="static/img/python.jpeg"></li>
+			<li><img src="static/img/logo@2x.png"></li>
+		</ul>
+		<iframe  class="col-md-offset-5" 
+	src="http://ghbtns.com/github-btn.html?user=lrn-guru&repo=lrn&type=watch&count=true&size=large"
+	allowtransparency="true" frameborder="0" scrolling="0" width="152" height="30"></iframe>
+	</div>
+
+	<a href="https://github.com/lrn-guru/lrn"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub Yo"></a>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
 </body>
 
 </html>

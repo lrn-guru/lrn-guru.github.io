@@ -4,20 +4,31 @@ body {
 /*.header {
 	background-color: #EDEDED;
 }*/
+/* header classes*/
 .links {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	color: gray;
+	font-size: 120%;
+}
+.description {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: gray;
+	text-align: center;
+	font-size: 120%;
 }
 .themecolor {
 	text-align: center;
 	color: #2ECCFA;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
-	font-style: italic;
 	text-align: center;
 	font-size: 300%;
 }
+
+/* body classes*/
+
 .mainbody {
 	background-color: white;
 	border-top: 1px solid #ccc;
@@ -26,5 +37,13 @@ body {
 }
 
 h2 {
-	color: #0080FF;
+	font-family: 'Ubuntu', sans-serif;
+	color: #2ECCFA;
+	font-weight: 300;
+}
+.details {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: gray;
+	font-size: 120%;
 }
