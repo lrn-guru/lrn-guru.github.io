@@ -19,3 +19,7 @@ body {
 	border-left: 1px solid #ccc;
 	border-right:1px solid #ccc;
 }
+
+h2 {
+	color: #0080FF;
+}
