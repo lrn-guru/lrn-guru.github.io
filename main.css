@@ -5,7 +5,13 @@ body {
 	background-color: #EDEDED;
 }*/
 .themecolor {
+	text-align: center;
 	color: #2ECCFA;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	font-size: 300%;
 }
 .mainbody {
 	background-color: white;
